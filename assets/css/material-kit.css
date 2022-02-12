@@ -10202,6 +10202,10 @@ fieldset:disabled .btn {
   color: #4CAF50 !important;
 }
 
+.text-red {
+  color: #ff0000 !important;
+}
+
 .text-info {
   color: #1A73E8 !important;
 }
