@@ -36,42 +36,26 @@ viewBox="0 0 50000 10000"
    <![CDATA[
     @font-face { font-family:"Roboto Slab";font-variant:normal;font-style:normal;font-weight:bold;src:url("#FontID0") format(svg)}
     .str0 {stroke-width:6.75}
-    .str1 {stroke:#303F9F;stroke-width:10}
-    .fil3 {fill:#303F9F}
-    .fil0 {fill:url(#id0)}
-    .fil1 {fill:url(#id1)}
-    .fil2 {fill:url(#id2)}
+    .str1 {stroke:black;stroke-width:10}
+    .fil0 {fill:black}
     .fnt2 {font-weight:bold;font-size:1481.66px;font-family:'Roboto Slab'}
     .fnt0 {font-weight:bold;font-size:8043.33px;font-family:'Roboto Slab'}
     .fnt1 {font-weight:bold;font-size:8043.34px;font-family:'Roboto Slab'}
    ]]>
   </style>
-  <linearGradient id="id0" gradientUnits="userSpaceOnUse" x1="26640" y1="4097.05" x2="32591.9" y2="4097.05">
-   <stop offset="0" style="stop-opacity:1; stop-color:#303F9F"/>
-   <stop offset="0.65098" style="stop-opacity:1; stop-color:#1A74C9"/>
-   <stop offset="1" style="stop-opacity:1; stop-color:#03A9F4"/>
-  </linearGradient>
-  <linearGradient id="id1" gradientUnits="objectBoundingBox" x1="46.153%" y1="0%" x2="53.847%" y2="119.474%">
-   <stop offset="0" style="stop-opacity:1; stop-color:#303F9F"/>
-   <stop offset="0.254902" style="stop-opacity:1; stop-color:#1A74C9"/>
-   <stop offset="0.490196" style="stop-opacity:1; stop-color:#00BCD4"/>
-   <stop offset="1" style="stop-opacity:1; stop-color:#03A9F4"/>
-  </linearGradient>
-  <linearGradient id="id2" gradientUnits="objectBoundingBox" xlink:href="#id1" x1="41.479%" y1="0%" x2="58.5653%" y2="114.393%">
-  </linearGradient>
  </defs>
  <g id="Camada_x0020_2">
   <metadata id="CorelCorpID_0Corel-Layer"/>
   <path class="fil0" d="M27325 880c-9,11 -4,1 -12,9 -5,4 -5,8 -10,14 -13,7 -39,-15 -26,39 11,2 11,3 24,3 14,6 -2,-1 10,10 10,10 5,-1 14,10 -100,1624 -141,3307 -181,4936 -2,104 28,79 -179,79 -60,1 -120,1 -180,1 -59,0 -98,-6 -145,38 0,15 2,44 0,63 0,119 5,1473 8,1483 2,26 3,22 8,43 8,10 27,24 40,25 20,1 44,0 65,0 1979,-6 3776,-17 5827,-20 9,-1288 0,-1299 2,-1907 -1,-64 7,-58 -9,-63 -431,-112 -948,-269 -1407,-397 0,-243 0,-242 1,-408 0,-9 0,-15 -1,-17 -2,-13 -7,-7 -15,-18 42,-32 -34,-26 -53,-26l-165 0c-20,0 -13,3 -21,14l-35 1c0,-1 -1,-3 -1,-2 -54,-32 -165,-100 -258,-161l-9 -6c-7,-6 -19,-15 -30,-9l-19 14c-92,55 -91,56 -194,118 -3,15 8,13 -49,13 -19,21 -16,18 -59,18 -19,0 -57,-1 -75,-1l-2 78 -10 0 0 1 -205 2 0 0 -360 0c-9,-7 -3,-9 -14,-13 -6,-3 -16,-2 -23,-4 -9,-3 -353,-212 -357,-216 -21,-14 -21,-13 -41,-26l-57 -1c-26,17 -17,12 -42,29 -26,21 -492,289 -507,296l-26 15c0,103 -1,167 0,316 -227,69 -299,99 -393,123 -42,11 -85,25 -125,34 -34,8 -107,41 -112,-16l-7 -152c-151,-3927 -18,-446 -154,-4209 -1,-12 -3,-19 -3,-37 1,-13 1,-25 4,-34 15,-6 17,3 28,-8l20 -19c11,-23 -18,-38 -33,-55 -11,-12 -2,-4 -16,-13 -9,-242 -13,-282 -14,-292 0,-2 0,-9 -9,-9 -194,-6 -328,-7 -378,-2 -20,3 -16,23 -18,61l-5 126c-2,38 -7,100 -7,129z"/>
-  <text x="133" y="7487"  class="fil1 fnt0">C</text>
-  <text x="5085" y="7487"  class="fil1 fnt0">A</text>
-  <text x="10787" y="7487"  class="fil1 fnt0">R</text>
-  <text x="16080" y="7487"  class="fil1 fnt0">L</text>
-  <text x="20557" y="7487"  class="fil1 fnt0">A</text>
-  <text x="32652" y="7467"  class="fil2 fnt1">2</text>
-  <text x="36877" y="7467"  class="fil2 fnt1">0</text>
-  <text x="41236" y="7467"  class="fil2 fnt1">2</text>
-  <text x="45460" y="7467"  class="fil2 fnt1">2</text>
-  <text x="1087" y="9424"  class="fil3 str1 fnt2">LATIN AMERICA HIGH PERFORMANCE COMPUTING CONFERENCE</text>
+  <text x="133" y="7487"  class="fil0 fnt0">C</text>
+  <text x="5085" y="7487"  class="fil0 fnt0">A</text>
+  <text x="10787" y="7487"  class="fil0 fnt0">R</text>
+  <text x="16080" y="7487"  class="fil0 fnt0">L</text>
+  <text x="20557" y="7487"  class="fil0 fnt0">A</text>
+  <text x="32652" y="7467"  class="fil0 fnt1">2</text>
+  <text x="36877" y="7467"  class="fil0 fnt1">0</text>
+  <text x="41236" y="7467"  class="fil0 fnt1">2</text>
+  <text x="45460" y="7467"  class="fil0 fnt1">2</text>
+  <text x="1087" y="9424"  class="fil0 str1 fnt2">LATIN AMERICA HIGH PERFORMANCE COMPUTING CONFERENCE</text>
  </g>
 </svg>
