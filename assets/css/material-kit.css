@@ -58,6 +58,8 @@
   --bs-body-line-height: 1.5;
   --bs-body-color: #7b809a;
   --bs-body-bg: #fff;
+  /* --bs-test: #42424a; */
+  /* --bs-test: #191919; */
 }
 
 *,
@@ -22235,6 +22237,14 @@ label,
 
 .bg-gradient-dark {
   background-image: linear-gradient(195deg, #42424a 0%, #191919 100%);
+}
+
+.bg-gradient-indigo-dark {
+  background-image: linear-gradient(195deg, #303F9F 0%, #3F51B5 100%);
+}
+
+.bg-gradient-indigo {
+  background-image: linear-gradient(195deg, #3F51B5 0%, #303F9F 100%);
 }
 
 .bg-gradient-faded-primary {
