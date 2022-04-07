@@ -32,6 +32,7 @@
   <meta name="twitter:site" content="CARLA2022" />
   
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <link rel="canonical" href="http://www.carla22.org/">
   <link rel="apple-touch-icon" sizes="76x76" href="./assets/img/apple-icon.png">
   <link rel="icon" type="image/png" href="./assets/img/favicon.svg">
   <title>
@@ -282,10 +283,30 @@
         </li> -->
 
         <li class="nav-item dropdown dropdown-hover mx-2">
-          <a class="nav-link ps-2 d-flex cursor-pointer align-items-center" href="./pages/workshops/workshops.html" id="workshopsList">
+          <a class="nav-link ps-2 d-flex cursor-pointer align-items-center" id="dropdownMenuWorkshops" data-bs-toggle="dropdown" aria-expanded="false">
             <i class="material-icons opacity-6 me-2 text-md">playlist_add_check</i>
             <b>Workshops</b>
+            <img src="./assets/img/down-arrow-white.svg" alt="down-arrow" class="arrow ms-auto ms-md-2">
           </a>
+          <div class="dropdown-menu dropdown-menu-animation ms-n3 dropdown-md p-3 border-radius-xl mt-0 mt-lg-3" aria-labelledby="dropdownMenuWorkshops">
+            <div class="d-none d-lg-block">
+              <a href="./pages/workshops/01.html" class="dropdown-item border-radius-md">
+                <span>Latin American Women on HPC</span>
+              </a>
+              <a href="./pages/workshops/02.html" class="dropdown-item border-radius-md">
+                <span>Energy and HPC</span>
+              </a>
+            </div>
+            <div class="d-lg-none">
+              <a href="./pages/workshops/01.html" class="dropdown-item border-radius-md">
+                <span>Latin American Women on HPC</span>
+              </a>
+              <a href="./pages/workshops/02.html" class="dropdown-item border-radius-md">
+                <span>Energy and HPC</span>
+              </a>
+            </div>
+            </div>
+          </div>
         </li>
 
       </ul>
