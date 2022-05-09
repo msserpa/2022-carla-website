@@ -27295,19 +27295,20 @@ pre[class*="language-"] {
 :root {
 	--box-shadow1:0px 0px 18px 2px rgba(10, 55, 90, 0.15);
 }
-body{
+/* For no-copy text in the site */
+/* body{
 	font-family: 'Roboto', sans-serif;
     font-weight: lighter;
     color: #637280;
     -moz-user-select: none;
     -webkit-user-select: none;
     user-select: none;
-}
+} */
 :focus{
     outline: 0px solid transparent !important;
 }
 .main-timeline {
-    padding: 50px 0;
+    padding: 20px 0;
     position: relative;
 }
 .main-timeline-nodes {
@@ -27382,8 +27383,8 @@ body{
 }
 .main-timeline-image::before {
     content: "";
-    width: 80px;
-    height: 80px;
+    width: 20px;
+    height: 20px;
     border: 2px dashed var(--indigo-dark);
     border-radius: 50%;
     display: block;
@@ -27460,8 +27461,8 @@ body{
     text-align: left;
 }
 .main-timeline-image::before {
-    width: 65px;
-    height: 65px;
+    width: 20px;
+    height: 20px;
 }
 }
 
@@ -27479,8 +27480,8 @@ body{
     left: -5%;
     }
 .main-timeline-image::before {
-    width: 60px;
-    height: 60px;
+    width: 20px;
+    height: 20px;
 }
 }
 /* manual insert */
