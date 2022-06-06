@@ -19978,6 +19978,11 @@ fieldset:disabled .btn {
   height: 74px !important;
 }
 
+.avatar-2xl {
+  width: 180px !important;
+  height: 180px !important;
+}
+
 .avatar-xl.avatar-raised {
   margin-top: -37px;
 }
@@ -27487,4 +27492,4 @@ pre[class*="language-"] {
 /* manual insert */
 
 
-/*# sourceMappingURL=kit-free.css.map */
+/*# sourceMappingURL=material-kit.css.map */

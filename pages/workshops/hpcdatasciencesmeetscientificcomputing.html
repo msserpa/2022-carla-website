@@ -38,6 +38,13 @@
     <!-- CSS Files -->
     <link id="pagestyle" href="../../assets/css/material-kit.css?v=3.0.0" rel="stylesheet" />
     <link id="pagestyle" href="../../assets/css/material-kit-pro.min.css?v=3.0.1" rel="stylesheet">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script>
+    $(function(){
+      $( "#navigator" ).load( "../../pages/load/nav.html" );
+    });
+    </script>
   </head>
 
 <header>
@@ -53,308 +60,7 @@
 </header>
 
 <body>
-    <!-- Start Navbar -->
-    <nav class="navbar navbar-expand-lg navbar-dark blur bg-gradient-indigo sticky-top py-2"> 
-      <!-- <nav class="navbar navbar-expand-lg  z-index-3 w-100 shadow-none my-3  navbar-transparent sticky-top"> -->
-      <div class="container px-0">
-        <a class="navbar-brand font-weight-bolder ms-sm-3" href="../../index.html" rel="tooltip" title="CARLA 2022" data-placement="bottom">
-          <img class="max-width-200 opacity-9" src="../../assets/img/logo_carla_white.svg" alt="logo">
-        </a>
-        <button class="navbar-toggler shadow-none ms-2" type="button" data-bs-toggle="collapse" data-bs-target="#navigation" aria-controls="navigation" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon">
-            <i class="fas fa-bars" style="color:#fff; font-size:28px;"></i>
-          </span>
-        </button>
-        <div class="collapse navbar-collapse pt-3 pb-2 py-lg-0 w-100" id="navigation">
-          <ul class="navbar-nav navbar-nav-hover ms-auto">
-            
-            <li class="nav-item dropdown dropdown-hover mx-2">
-              <a class="nav-link ps-2 d-flex cursor-pointer align-items-center" href="../../index.html" id="homePage">
-                <i class="material-icons opacity-6 me-2 text-md">roofing</i>
-                <b>Home</b>
-              </a>
-            </li>
-
-            <li class="nav-item dropdown dropdown-hover mx-2">
-              <a class="nav-link ps-2 d-flex cursor-pointer align-items-center" id="dropdownMenuPages" data-bs-toggle="dropdown" aria-expanded="false">
-                <i class="material-icons opacity-6 me-2 text-md">dashboard</i>
-                <b>About CARLA 2022</b>
-                <img src="../../assets/img/down-arrow-white.svg" alt="down-arrow" class="arrow ms-auto ms-md-2">
-              </a>
-              <div class="dropdown-menu dropdown-menu-animation ms-n3 dropdown-md p-3 border-radius-xl mt-0 mt-lg-3" aria-labelledby="dropdownMenuPages">
-                <div class="d-none d-lg-block">
-                  <a href="../../pages/about/board-committee.html" class="dropdown-item border-radius-md">
-                    <span>Board Committee</span>
-                  </a>
-                  <a href="../../pages/about/previous-carla.html" class="dropdown-item border-radius-md">
-                    <span>Previous CARLA</span>
-                  </a>
-                  <!-- <a href="#" class="dropdown-item border-radius-md">
-                    <span>Contact</span>
-                  </a> -->
-                  <!-- <a href="#" class="dropdown-item border-radius-md">
-                    <span>Poster CARLA 2022</span>
-                  </a> -->
-                  <!-- <a href="#" class="dropdown-item border-radius-md">
-                    <span>About</span>
-                  </a> -->
-                </div>
-  
-                <div class="d-lg-none">
-                  <a href="../../pages/about/board-committee.html" class="dropdown-item border-radius-md">
-                    <span>Board Committee</span>
-                  </a>
-                  <a href="../../pages/about/previous-carla.html" class="dropdown-item border-radius-md">
-                    <span>Previous CARLA</span>
-                  </a>
-                  <!-- <a href="#" class="dropdown-item border-radius-md">
-                    <span>Contact</span>
-                  </a> -->
-                  <!-- <a href="#" class="dropdown-item border-radius-md">
-                    <span>Poster CARLA 2022</span>
-                  </a> -->
-                  <!-- <a href="#" class="dropdown-item border-radius-md">
-                    <span>About</span>
-                  </a> -->
-                </div>
-  
-              </div>
-            </li>
-  
-            <!-- <li class="nav-item dropdown dropdown-hover mx-2">
-              <a class="nav-link ps-2 d-flex cursor-pointer align-items-center" id="dropdownMenuBlocks" data-bs-toggle="dropdown" aria-expanded="false">
-                <i class="material-icons opacity-6 me-2 text-md">people</i>
-                <b>Speakers</b>
-                <img src="../../assets/img/down-arrow-white.svg" alt="down-arrow" class="arrow ms-auto ms-md-2">
-              </a>
-              <div class="dropdown-menu dropdown-menu-animation ms-n3 dropdown-md p-3 border-radius-xl mt-0 mt-lg-3" aria-labelledby="dropdownMenuPages">
-                <div class="d-none d-lg-block">
-                  <a href="#" class="dropdown-item border-radius-md">
-                    <span>Keynotes</span>
-                  </a>
-                  <a href="#" class="dropdown-item border-radius-md">
-                    <span>Guests</span>
-                  </a>
-                  <a href="#" class="dropdown-item border-radius-md">
-                    <span>Sponsors</span>
-                  </a>
-                  <a href="#" class="dropdown-item border-radius-md">
-                    <span>Workshop & Industry</span>
-                  </a>
-                </div>
-                <div class="d-lg-none">
-                  <a href="#" class="dropdown-item border-radius-md">
-                    <span>Keynotes</span>
-                  </a>
-                  <a href="#" class="dropdown-item border-radius-md">
-                    <span>Guest</span>
-                  </a>
-                  <a href="#" class="dropdown-item border-radius-md">
-                    <span>Sponsors</span>
-                  </a>
-                  <a href="#" class="dropdown-item border-radius-md">
-                    <span>Workshop & Industry</span>
-                  </a>
-                </div>
-              </div>
-            </li> -->
-  
-            <!-- <li class="nav-item dropdown dropdown-hover mx-2">
-              <a class="nav-link ps-2 d-flex cursor-pointer align-items-center" id="dropdownMenuDocs" data-bs-toggle="dropdown" aria-expanded="false">
-                <i class="material-icons opacity-6 me-2 text-md">date_range</i>
-                <b>Schedule</b>
-                <img src="../../assets/img/down-arrow-white.svg" alt="down-arrow" class="arrow ms-auto ms-md-2">
-              </a>
-              <div class="dropdown-menu dropdown-menu-animation ms-n3 dropdown-md p-3 border-radius-xl mt-0 mt-lg-3" aria-labelledby="dropdownMenuPages">
-                <div class="d-none d-lg-block">
-                  <a href="#" class="dropdown-item border-radius-md">
-                    <span>Program</span>
-                  </a>
-                  <a href="#" class="dropdown-item border-radius-md">
-                    <span>Posters</span>
-                  </a>
-                  <a href="#" class="dropdown-item border-radius-md">
-                    <span>Workshops</span>
-                  </a>
-                  <a href="#" class="dropdown-item border-radius-md">
-                    <span>Tutorials</span>
-                  </a>
-                  <a href="#" class="dropdown-item border-radius-md">
-                    <span>Workshop & Tutorials</span>
-                  </a>
-                </div>
-                <div class="d-lg-none">
-                  <a href="#" class="dropdown-item border-radius-md">
-                    <span>Program</span>
-                  </a>
-                  <a href="#" class="dropdown-item border-radius-md">
-                    <span>Posters</span>
-                  </a>
-                  <a href="#" class="dropdown-item border-radius-md">
-                    <span>Workshops</span>
-                  </a>
-                  <a href="#" class="dropdown-item border-radius-md">
-                    <span>Tutorials</span>
-                  </a>
-                  <a href="#" class="dropdown-item border-radius-md">
-                    <span>Workshop & Tutorials</span>
-                  </a>
-                </div>
-              </div>
-            </li> -->
-  
-            <li class="nav-item dropdown dropdown-hover mx-2">
-              <a class="nav-link ps-2 d-flex cursor-pointer align-items-center" id="dropdownMenuDocs" data-bs-toggle="dropdown" aria-expanded="false">
-                <i class="material-icons opacity-6 me-2 text-md">article</i>
-                <b>Calls</b>
-                <img src="../../assets/img/down-arrow-white.svg" alt="down-arrow" class="arrow ms-auto ms-md-2">
-              </a>
-              <div class="dropdown-menu dropdown-menu-animation ms-n3 dropdown-md p-3 border-radius-xl mt-0 mt-lg-3" aria-labelledby="dropdownMenuPages">
-                <div class="d-none d-lg-block">
-                  <a href="../../pages/calls/call4papers.html" class="dropdown-item border-radius-md">
-                    <span>Call for  Papers</span>
-                  </a>
-                  <a href="../../pages/calls/call4posters.html" class="dropdown-item border-radius-md">
-                    <span>Call for Posters</span>
-                  </a>
-                  <a href="../../pages/calls/call4tutorials.html" class="dropdown-item border-radius-md">
-                    <span>Call for Tutorials</span>
-                  </a>
-                  <a href="../../pages/calls/call4workshops.html" class="dropdown-item border-radius-md">
-                    <span>Call for Workshops</span>
-                  </a>
-                </div>
-                <div class="d-lg-none">
-                  <a href="../../pages/calls/call4papers.html" class="dropdown-item border-radius-md">
-                    <span>Call for  Papers</span>
-                  </a>
-                  <a href="../../pages/calls/call4posters.html" class="dropdown-item border-radius-md">
-                    <span>Call for Posters</span>
-                  </a>
-                  <a href="../../pages/calls/call4tutorials.html" class="dropdown-item border-radius-md">
-                    <span>Call for Tutorials</span>
-                  </a>
-                  <a href="../../pages/calls/call4workshops.html" class="dropdown-item border-radius-md">
-                    <span>Call for Workshops</span>
-                  </a>
-                </div>
-              </div>
-            </li>
-  
-            <!-- <li class="nav-item dropdown dropdown-hover mx-2">
-              <a class="nav-link ps-2 d-flex cursor-pointer align-items-center" id="dropdownMenuDocs" data-bs-toggle="dropdown" aria-expanded="false">
-                <i class="material-icons opacity-6 me-2 text-md">perm_media</i>
-                <b>Multimedia</b>
-                <img src="../../assets/img/down-arrow-white.svg" alt="down-arrow" class="arrow ms-auto ms-md-2">
-              </a>
-              <div class="dropdown-menu dropdown-menu-animation ms-n3 dropdown-md p-3 border-radius-xl mt-0 mt-lg-3" aria-labelledby="dropdownMenuPages">
-                <div class="d-none d-lg-block">
-                  <a href="#" class="dropdown-item border-radius-md">
-                    <span>Resources</span>
-                  </a>
-                  <a href="#" class="dropdown-item border-radius-md">
-                    <span>Videos</span>
-                  </a>
-                </div>
-                <div class="d-lg-none">
-                  <a href="#" class="dropdown-item border-radius-md">
-                    <span>Resources</span>
-                  </a>
-                  <a href="#" class="dropdown-item border-radius-md">
-                    <span>Videos</span>
-                  </a>
-                </div>
-                </div>
-              </div>
-            </li> -->
-
-            <li class="nav-item dropdown dropdown-hover mx-2">
-              <a class="nav-link ps-2 d-flex cursor-pointer align-items-center" id="dropdownMenuWorkshops" data-bs-toggle="dropdown" aria-expanded="false">
-                <i class="material-icons opacity-6 me-2 text-md">playlist_add_check</i>
-                <b>Workshops</b>
-                <img src="../../assets/img/down-arrow-white.svg" alt="down-arrow" class="arrow ms-auto ms-md-2">
-              </a>
-              <div class="dropdown-menu dropdown-menu-animation ms-n3 dropdown-md p-3 border-radius-xl mt-0 mt-lg-3" aria-labelledby="dropdownMenuWorkshops">
-                <div class="d-none d-lg-block">
-                  <a href="../../pages/workshops/advancedcomputingtrends.html" class="dropdown-item border-radius-md">
-                    <span>Advanced Computing Trends</span>
-                  </a>
-                  <a href="../../pages/workshops/americashpccollaboration.html" class="dropdown-item border-radius-md">
-                    <span>Americas HPC Collaboration</span>
-                  </a>
-                  <a href="../../pages/workshops/biocarla.html" class="dropdown-item border-radius-md">
-                    <span>BioCARLA</span>
-                  </a>
-                  <a href="../../pages/workshops/energyhpc.html" class="dropdown-item border-radius-md">
-                    <span>Energy and HPC</span>
-                  </a>
-                  <a href="../../pages/workshops/goodpracticeshpcmanagement.html" class="dropdown-item border-radius-md">
-                    <span>Good practices in HPC Management</span>
-                  </a>
-                  <a href="../../pages/workshops/hpcdatasciencesmeetscientificcomputing.html" class="dropdown-item border-radius-md">
-                    <span>HPC and Data Sciences meet Scientific Computing</span>
-                  </a>
-                  <a href="../../pages/workshops/latinamericanwomenhpc.html" class="dropdown-item border-radius-md">
-                    <span>Latin American Women on HPC</span>
-                  </a>
-                </div>
-                <div class="d-lg-none">
-                  <a href="../../pages/workshops/advancedcomputingtrends.html" class="dropdown-item border-radius-md">
-                    <span>Advanced Computing Trends</span>
-                  </a>
-                  <a href="../../pages/workshops/americashpccollaboration.html" class="dropdown-item border-radius-md">
-                    <span>Americas HPC Collaboration</span>
-                  </a>
-                  <a href="../../pages/workshops/biocarla.html" class="dropdown-item border-radius-md">
-                    <span>BioCARLA</span>
-                  </a>
-                  <a href="../../pages/workshops/energyhpc.html" class="dropdown-item border-radius-md">
-                    <span>Energy and HPC</span>
-                  </a>
-                  <a href="../../pages/workshops/goodpracticeshpcmanagement.html" class="dropdown-item border-radius-md">
-                    <span>Good practices in HPC Management</span>
-                  </a>
-                  <a href="../../pages/workshops/hpcdatasciencesmeetscientificcomputing.html" class="dropdown-item border-radius-md">
-                    <span>HPC and Data Sciences meet Scientific Computing</span>
-                  </a>
-                  <a href="../../pages/workshops/latinamericanwomenhpc.html" class="dropdown-item border-radius-md">
-                    <span>Latin American Women on HPC</span>
-                  </a>
-                </div>
-              </div>
-            </li>
-            
-            <li class="nav-item dropdown dropdown-hover mx-2">
-              <a class="nav-link ps-2 d-flex cursor-pointer align-items-center" id="dropdownMenuVenue" data-bs-toggle="dropdown" aria-expanded="false">
-                <i class="material-icons opacity-6 me-2 text-md">location_on</i>
-                <b>Venue</b>
-                <img src="../../assets/img/down-arrow-white.svg" alt="down-arrow" class="arrow ms-auto ms-md-2">
-              </a>
-              <div class="dropdown-menu dropdown-menu-animation ms-n3 dropdown-md p-3 border-radius-xl mt-0 mt-lg-3" aria-labelledby="dropdownMenuPages">
-                <div class="d-none d-lg-block">
-                  <a href="../../pages/venue/about.html" class="dropdown-item border-radius-md">
-                    <span>About</span>
-                  </a>
-                  <a href="../../pages/venue/hotels.html" class="dropdown-item border-radius-md">
-                    <span>Hotels</span>
-                  </a>
-                </div>
-                <div class="d-lg-none">
-                  <a href="../../pages/venue/about.html" class="dropdown-item border-radius-md">
-                    <span>About</span>
-                  </a>
-                  <a href="../../pages/venue/hotels.html" class="dropdown-item border-radius-md">
-                    <span>Hotels</span>
-                  </a>
-                </div>
-              </div>
-            </li>
-
-          </ul>
-        </div>
-      </div>
-    </nav>
-    <!-- End Navbar -->
+<div class="sticky-top" id="navigator"></div>
 
   <section class="bg-gray-200 card card-body blur shadow-blur mt-n1">
     <!-- -------- START Card ------- -->
@@ -384,7 +90,7 @@
                 <div id="WomenOnHPC">
                   <div class="accordion-body text-sm">
                             
-                    <p> <strong>About the workshop</strong>
+                    <p class="lead"><strong>About the workshop</strong>
                     <p>
                       Data-intensive science requires the integration of two fairly
                       different paradigms: high-performance computing (HPC) and data
@@ -409,13 +115,34 @@
                       the recently launched Center of Excellence in Digital Transformation
                       and Artificial Intelligence of the State of Rio de Janeiro.
                     </p>
-                    <p><strong>Topics</strong></p>
+                    <p class="lead"><strong>Topics</strong></p>
                     <ul>
                       <li>Scientific Machine Learning (SciML)</li>
                       <li>High performance scientific computing</li>
                       <li>Data Science</li>
                     </ul>
-                    <p><strong>Organizers</strong></p>
+
+                    <div>
+                      <p class="lead"><strong>Submission Guidelines</strong></p>
+                      <p><strong>Paper submission deadline:</strong> <span class="text-red"> July 15th, 2022</span></p>
+                      <p> Authors should consult Springer's authors' guidelines and use their
+                        proceedings templates, either for LaTeX or for MSWord, for the
+                        preparation of their articles: 
+                        <a class="link-info" href="https://www.springer.com/gp/computer-science/lncs/conference-proceedings-guidelines" target="_blank" rel="noopener">template &nbsp; https://www.springer.com/gp/computer-science/lncs/conference-proceedings-guidelines</a>
+                      </p>
+                      <ul>
+                        <li>All submissions must be in English.</li>
+                        <li>Articles should not exceed 12 pages (including references).</li>
+                        <li>Only contributions that are not submitted elsewhere or currently under review will be considered.</li>
+                        <li>Only accepted contributions presented at the conference will be included in the workshop proceedings.</li>
+                        <li>Article submission is handled electronically with Springer's Online Conference System: <a class="link-info" href="https://equinocs.springernature.com/service/CARLA2022" target="_blank" rel="noopener">OCS</a></li>
+                      </ul>
+                      <a href="https://equinocs.springernature.com/service/CARLA2022" target="_blank">
+                        <button type="button" class="text-lg btn bg-indigo text-white w-auto ms-auto">Submit your papers Now!</button>
+                      </a>
+                    </div> 
+
+                    <p class="lead"><strong>Organizers</strong></p>
                     <ul>
                       <li>Alvaro L.G.A. Coutinho (COPPE/Federal University of Rio de Janeiro, Brazil)</li>
                       <li>Marta Marta Mattoso (COPPE/Federal University of Rio de Janeiro, Brazil)</li>
@@ -427,6 +154,37 @@
                     </ul>
                   </div>
                 </div>
+                
+                <div class="row align-items-center mt-3">
+                  <div class="col-lg-8 mb-md-0 mb-4">
+                    <h3>RISC2 Project</h3>
+                    <p class="mb-md-5 mb-4">
+                      The European project RISC2 aims to create a network to support the coordination
+                      of High-Performance Computing research between Europe and Latin America. Its main
+                      goal is exploring the real and potential impact on HPC, namely in coping with the
+                      growing environmental and scientific challenges and, therefore, in the economies
+                      of Latin America and Europe. Gathering key European HPC actors to encourage stronger
+                      cooperation between their research and industrial communities on HPC applications
+                      and infrastructure deployment. The results of the RISC2 project will promote the
+                      exchange of the best practices in HPC, in Europe and Latin America. The project
+                      also focuses on boosting Latin American HPC, promoting the interaction between
+                      researchers and policymakers in both regions and strengthening their connection,
+                      towards the definition of a coordinated policy and a concrete roadmap for the future.
+                      <br>
+                      <a href="https://www.risc2-project.eu/" target="_blank" class="text-info icon-move-right">Know More
+                        <i class="fas fa-arrow-right text-sm" aria-hidden="true"></i>
+                      </a>
+                    </p>
+                    
+                  </div>
+                  <div class="col-lg-4">
+                    <div class="blur-shadow-image text-center">
+                      <img src="../../assets/img/logos/medium-logos/risc2.jpeg" alt="img-shadow" class="img-fluid border-radius-lg max-height-500"> <!-- shadow-xl -->
+                    </div>
+                  </div>
+                </div>
+
+
               </div>
             </div>
           </div>
@@ -511,7 +269,7 @@
   <!-- Control Center for Material UI Kit: parallax effects, scripts for the example pages etc -->
   <script src="../../assets/js/plugins/anime.min.js" type="text/javascript"></script>
   <script src="../../assets/js/plugins/nouislider.min.js" type="text/javascript"></script>
-  <script src="../assets/js/plugins/typedjs.js"></script>
+  <script src="../../assets/js/plugins/typedjs.js"></script>
   <script async="" defer="" src="https://buttons.github.io/buttons.js"></script>
   <!--  Google Maps Plugin    -->
   <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDTTfWur0PDbZWPr7Pmq8K3jiDp0_xUziI"></script>
