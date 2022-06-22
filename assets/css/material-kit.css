@@ -8635,8 +8635,24 @@ fieldset:disabled .btn {
 }
 
 /* manual insert */
+.min-vh-5 {
+  min-height: 5vh !important;
+}
+
+.min-vh-10 {
+  min-height: 10vh !important;
+}
+
 .min-vh-15 {
   min-height: 15vh !important;
+}
+
+.min-vh-20 {
+  min-height: 14.5vh !important;
+}
+
+.min-vh-30 {
+  min-height: 20vh !important;
 }
 /* manual insert */
 
@@ -19963,6 +19979,27 @@ fieldset:disabled .btn {
 .active .avatar.avatar-scale-up {
   transform: scale(1.2);
 }
+
+/* manual insert */
+.logo img {
+  width: 100%;
+}
+
+.logo-p {
+  width: 400px !important;
+  height: auto !important;
+}
+
+.logo-g {
+  width: 300px !important;
+  height: auto !important;
+}
+
+.logo-s {
+  width: 200px !important;
+  height: auto !important;
+}
+/* manual insert */
 
 .avatar-xxl {
   width: 110px !important;
