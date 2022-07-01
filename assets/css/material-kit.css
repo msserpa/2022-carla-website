@@ -25744,6 +25744,41 @@ p {
   font-size: 5rem;
 }
 
+/* manual insert */
+.text-275xl {
+  font-size: 2.75rem;
+}
+
+.text-225xl {
+  font-size: 2.25rem;
+}
+
+.text-175xl {
+  font-size: 1.75rem;
+}
+
+.text-10xl {
+  font-size: 6rem;
+}
+
+.text-11xl {
+  font-size: 7rem;
+}
+
+.text-12xl {
+  font-size: 8rem;
+}
+
+.text-shadow-dark {
+  text-shadow: 0.15em 0.15em 0.4em rgba(0, 0, 0, 0.8) !important;
+}
+
+.text-shadow-light {
+  text-shadow: 0.15em 0.15em 0.4em rgba(240, 242, 245, 0.4) !important;
+}
+
+/* manual insert */
+
 .flatpickr-calendar {
   background: transparent;
   opacity: 0;
