@@ -90,10 +90,10 @@ body {
 
 hr {
   margin: 1rem 0;
-  color: inherit;
-  background-color: currentColor;
+  color: unset;
+  background-color: unset;
   border: 0;
-  opacity: 0.25;
+  opacity: 1;
 }
 
 hr:not([size]) {
