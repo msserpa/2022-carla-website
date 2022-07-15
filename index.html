@@ -325,7 +325,14 @@
                 </div>
               </div>
             </li>
-            
+
+            <li class="nav-item dropdown dropdown-hover mx-2">
+              <a class="nav-link ps-2 d-flex cursor-pointer align-items-center" href="./pages/register/registration.html" id="homePage">
+                <i class="material-icons opacity-6 me-2 text-md">how_to_reg</i>
+                <b>Register</b>
+              </a>
+            </li>
+
             <li class="nav-item dropdown dropdown-hover mx-2">
               <a class="nav-link ps-2 d-flex cursor-pointer align-items-center" id="dropdownMenuVenue" data-bs-toggle="dropdown" aria-expanded="false">
                 <i class="material-icons opacity-6 me-2 text-md">location_on</i>
@@ -461,20 +468,13 @@
           <div class="row">
             <div class="row justify-content-center text-dark pt-lg-2">
               <!-- to enable divs, please remove justify tag -->
-
-              <!-- <div class="col-lg-4 justify-content-start">
-                <div class="position-sticky pb-lg-5 pb-3 mt-lg-0 mt-5 ps-2" style="top: 100px">
-                  <h2 class="mt-7">News</h2>
-                  <a class="link-info" href=":;javascript">Teste teste teste</a>
-                </div>
-              </div> -->
                 
               <div class="col-lg-8"> <!--if enable poster div, change to col-lg-7 -->
                 <div class="row mt-3">
                   <h3 class=" mb-0 text-center text-indigo">The Latin America High Performance Computing Conference comes to Brazil</h3>
                   <p class="lead text-justify mb-0 py-3">
                     CARLA is an international conference that provides a forum to foster the growth and strength of the
-                    High Performance Computing (HPC) communityin Latin America through the exchange and dissemination of
+                    High Performance Computing (HPC) community in Latin America through the exchange and dissemination of
                     new ideas, techniques, and research in HPC and its applications areas. It started in 2014.<br>
                     <br>
                     CARLA has become the flagship conference for HPC in the region. We invite the international community
@@ -490,24 +490,27 @@
                   <div class="col-10 mx-auto">
                     <a type="button" href="https://equinocs.springernature.com/service/CARLA2022" target="_blank" class="btn bg-gradient-indigo text-white text-bold btn-lg w-90">Submit your paper NOW!</a>
                   </div>
-                  <!-- <div class="col-10 mx-auto"> -->
-                    <!-- <a type="button" href="https://eventos.redclara.net/e/CARLA2022" target="_blank" class="btn bg-gradient-primary text-white text-bold btn-lg w-90">Register NOW!</a> -->
-                    <!-- http://carla22.org/register -->
-                  <!-- </div> -->
+                  <div class="col-10 mx-auto">
+                    <a type="button" href="./pages/register/registration.html" class="btn bg-gradient-primary text-white text-bold btn-lg w-90">Register NOW!</a>
+                    <!-- http://carla22.org/register https://eventos.redclara.net/e/CARLA2022-->
+                  </div>
                 </div>
               </div>
-              <!-- <div class="col-lg-4 mt-lg-0 mt-4 d-lg-flex justify-content-end">
+              <div class="col-lg-4 mt-lg-0 mt-4 d-lg-flex justify-content-end">
                 <div class="row mt-3">
                   <div class="mt-lg-0 mt-3 ps-7">
                     <h5 class="mt-2 text-uppercase text-primary">News</h5>
-                    <hr class="horizontal mt-0 mb-2 bg-gradient-indigo" size="5">
-                    <ul class="list-unstyled text-bold ps-2">
-                      <li><a class="link-info" href=":;javascript">Teste teste teste teste teste teste teste teste teste teste teste teste teste teste  </a></li>
-                    </ul>
-                    
+                    <hr class="horizontal mt-0 mb-2 bg-gradient-dark" size="5">
+                    <div>
+                      <p class="text-normal mt-3"><a href="#sponsorsgold">New Sponsor: AMD and SUPERMICRO</a></p>
+                      <p class="text-normal mt-3"><a href="./pages/speakers/pablomininni.html">New Invited talk: Pablo Mininni</a></p>
+                      <p class="text-normal mt-3"><a href="./pages/speakers/luigicarro.html">New Invited talk: Luigi Carro</a></p>
+                      <p class="text-normal mt-3"><a href="./pages/speakers/michelataufer.html">New Keynote Speaker: Michela Taufer</a></p>
+                      <p class="text-normal mt-3"><a href="./pages/speakers/danielkatz.html">New Keynote Speaker: Daniel S. Katz</a></p>
+                    </div>
                   </div>
                 </div>
-              </div> -->
+              </div>
             </div>
           </div>
         </div>
@@ -659,7 +662,7 @@
             </div>
           </div>
 
-          <!-- <div>
+          <!-- <div id="sponsorsplatinum">
             <div class="row mt-4 py-4">
               <div class="col-8 mx-auto text-center">
                 <h2 class="opacity-10 text-bold text-275xl" style="color: #D3D6D8;"> Platinum</h2>
@@ -678,7 +681,7 @@
             </div>
           </div> -->
 
-          <div>
+          <div id="sponsorsgold">
             <div class="row mt-4 py-4">
               <div class="col-8 mx-auto text-center">
                 <h2 class="opacity-9 text-bold text-225xl" style="color: #D4AF37;"> Gold</h2>
@@ -686,7 +689,6 @@
             </div>
             <div class="row mt-2 justify-content-center">
               <div class="col-lg-4 col-md-4 col-6 mb-4 logo logo-g">
-                <!-- <img class="w-100  opacity-9" src="./assets/img/logos/medium-logos/logo-amd.svg" alt="logo-amd"> -->
                 <img class="w-100  opacity-9" src="./assets/img/logos/medium-logos/logo-amd-supermicro2.png" alt="logo-amd-supermicro">
               </div>
               <!-- <div class="col-lg-4 col-md-4 col-6 mb-4 logo logo-g">
@@ -698,7 +700,7 @@
             </div>
           </div>
 
-          <!-- <div>
+          <!-- <div id="sponsorssilver">
             <div class="row mt-4 py-4">
               <div class="col-8 mx-auto text-center">
                 <h2 class="opacity-9 text-bold text-175xl" style="color: #A8A9AD;"> Silver</h2>
@@ -721,11 +723,11 @@
       <!-- -------   END Sponsors   -------- -->
 
       <!-- -------   START Support  -------- -->
-      <!-- <section class="py-7 bg-gradient-faded-dange border-radius-xl" id="pre-footer-sponsors">
+      <section class="py-7 bg-gradient-faded-dange border-radius-xl" id="pre-footer-sponsors">
         <div class="container">
           <div class="row">
             <div class="col-8 mx-auto text-center">
-              <h2 class="font-weight-bolder text-indigo-dark"> Supported by - Organizers</h2>
+              <h3 class="font-weight-bolder text-indigo-dark"> Organization</h3>
             </div>
           </div>
 
@@ -738,19 +740,19 @@
                 <img class="w-100 opacity-9" src="./assets/img/logos/medium-logos/logo-oficial-unicartagena.png" alt="logo">
               </div>
               <div class="col-lg-4 col-md-4 col-6 mb-4 d-flex flex-column justify-content-center logo logo-s">
-                <img class="w-100 opacity-9" src="./assets/img/logos/medium-logos/logo-spotify.svg" alt="logo">
+                <img class="w-100 opacity-9" src="./assets/img/logos/medium-logos/UniversidadIndustrialdeSantander.png" alt="logo">
               </div>
               <div class="col-lg-4 col-md-4 col-6 mb-4 d-flex flex-column justify-content-center logo logo-s">
-                <img class="w-100 opacity-9" src="./assets/img/logos/medium-logos/logo-spotify.svg" alt="logo">
+                <img class="w-100 opacity-9" src="./assets/img/logos/medium-logos/cultural-center.png" alt="logo">
               </div>
-              <div class="col-lg-4 col-md-4 col-6 mb-4 d-flex flex-column justify-content-center logo logo-s">
+              <!-- <div class="col-lg-4 col-md-4 col-6 mb-4 d-flex flex-column justify-content-center logo logo-s">
                 <img class="w-100 opacity-9" src="./assets/img/logos/medium-logos/logo-spotify.svg" alt="logo">
-              </div>
+              </div> -->
             </div>
           </div>
 
 
-          <div>
+          <!-- <div>
             <div class="row mt-4 py-4">
               <div class="col-8 mx-auto text-center">
                 <h2 class="opacity-9 text-bold text-175xl" style="color: #A8A9AD;"> Silver</h2>
@@ -767,9 +769,9 @@
                 <img class="w-100 opacity-9" src="./assets/img/logos/gray-logos/your-logo.png" alt="logo">
               </div>
             </div>
-          </div>
+          </div> -->
         </div>
-      </section> -->
+      </section>
       <!-- -------   END Support   -------- -->
     </div>
     <!-- -------- END Card ------- -->  
@@ -779,6 +781,26 @@
   <!-- -------- START FOOTER WITH LINKS & SOCIAL ICONS & COPYRIGHT ------- -->
   <footer class="footer my-auto py-2 w-100 bottom-0">
     <div class="container">
+      <div class="row justify-content-center">
+        <!-- <div class="col-lg-2 col-md-4 col-6 mb-4">
+          <img class="w-100 opacity-9" src="./assets/img/logos/medium-logos/logo-amd-supermicro2.png" alt="logo">
+        </div> -->
+        <!-- <div class="col-lg-2 col-md-4 col-6 mb-4">
+          <img class="w-100 opacity-9" src="./assets/img/logos/gray-logos/logo-nasa.svg" alt="logo">
+        </div> -->
+        <!-- <div class="col-lg-2 col-md-4 col-6 mb-4">
+          <img class="w-100 opacity-9" src="./assets/img/logos/gray-logos/logo-netflix.svg" alt="logo">
+        </div> -->
+        <!-- <div class="col-lg-2 col-md-4 col-6 mb-4">
+          <img class="w-100 opacity-9" src="./assets/img/logos/gray-logos/logo-pinterest.svg" alt="logo">
+        </div> -->
+        <!-- <div class="col-lg-2 col-md-4 col-6 mb-4">
+          <img class="w-100 opacity-9" src="./assets/img/logos/gray-logos/logo-spotify.svg" alt="logo">
+        </div> -->
+        <!-- <div class="col-lg-2 col-md-4 col-6 mb-4">
+          <img class="w-100 opacity-9" src="./assets/img/logos/gray-logos/logo-vodafone.svg" alt="logo">
+        </div> -->
+      </div>
       <div class="row">
         <div class="col-lg-8 mt-4 mb-4 mx-auto text-center">
           <a href="./index.html" class="text-secondary mx-2 mb-sm-0 mb-2">
