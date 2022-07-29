@@ -102,7 +102,20 @@
                     <span class="text-danger">Title:</span> Multi-level parallelization of computational fluid dynamics codes using CUDA, MPI and OpenMP
                   </p>
                   <p class="text-dark text-justify">
-                    <b>Abstract: </b>TBA
+                    <b>Abstract: </b>Efficient use of current HPC platforms, with very large numbers of CPU and GPUs,
+                    provides a challenge not only in computational fluid dynamics (CFD) but in many applications.
+                    I will discuss methods to augment an existing hybrid MPI-OpenMP CFD scheme with a CUDA-based fine
+                    grain parallelization. This allows for simultaneous computation in CPUs and GPUs, using threads
+                    to balance workload between CPU cores, and performing operations in GPUs when convenient. The
+                    basics of the multi-level parallelization scheme will be discussed, with heuristics that show the
+                    benefit of the CUDA implementation. CUDA streams are implemented to overlap data transfer with
+                    computation. Testing with a baseline solver demonstrates significant aggregate speed-up over the
+                    hybrid MPI-OpenMP solver by offloading to GPUs on an NVLink-based system. While the batch streamed
+                    approach provides little benefit with NVLink, we see a performance gain of 30% when tuned for the
+                    optimal number of streams on PCI-based systems. The method achieves strong GPU scaling, and
+                    provides an example of how to manage methods that require all-to-all communications using multiple
+                    GPUs. Finally, I will briefly discuss how the output of large simulations can be visualized and
+                    analyzed by combining HPC approaches together with interactive desktop tools.
                     <br>
                     <br>
                   </p>
