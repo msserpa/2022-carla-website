@@ -7815,6 +7815,15 @@ fieldset:disabled .btn {
   color: #344767;
 }
 
+.link-black {
+  color: #000;
+}
+
+.link-black:hover,
+.link-black:focus {
+  color: #212121;
+}
+
 .link-dark:hover,
 .link-dark:focus {
   color: #2a3952;
@@ -25530,7 +25539,7 @@ h4,
 
 a {
   letter-spacing: 0rem;
-  color: #344767;
+  color: #000;
 }
 
 .text-sm {
