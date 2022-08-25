@@ -53,7 +53,7 @@
 </header>
 
 
-<body class="bg-gray-200">
+<body class="bg-gr">
 
     <!-- Start Navbar -->
     <nav class="navbar navbar-expand-lg navbar-dark blur bg-gradient-indigo sticky-top py-2"> 
@@ -68,7 +68,7 @@
           </span>
         </button>
         <div class="collapse navbar-collapse pt-3 pb-2 py-lg-0 w-100" id="navigation">
-          <ul class="navbar-nav navbar-nav-hover ms-auto">
+          <ul class="navbar-nav navbar-nav-hover ms-auto align-items-center">
             
             <li class="nav-item dropdown dropdown-hover mx-2">
               <a class="nav-link ps-2 d-flex cursor-pointer align-items-center" href="./index.html" id="homePage">
@@ -123,10 +123,10 @@
               </div>
             </li>
   
-            <li class="nav-item dropdown dropdown-hover mx-2">
+            <li class="nav-item dropdown dropdown-hover mx-2 text-center">
               <a class="nav-link ps-2 d-flex cursor-pointer align-items-center" id="dropdownMenuBlocks" data-bs-toggle="dropdown" aria-expanded="false">
                 <i class="material-icons opacity-6 me-2 text-md">people</i>
-                <b>Speakers</b>
+                <b>Speakers <br> Panels</b>
                 <img src="./assets/img/down-arrow-white.svg" alt="down-arrow" class="arrow ms-auto ms-md-2">
               </a>
               <div class="dropdown-menu dropdown-menu-animation ms-n3 dropdown-md p-3 border-radius-xl mt-0 mt-lg-3" aria-labelledby="dropdownMenuPages">
@@ -176,7 +176,7 @@
               <div class="dropdown-menu dropdown-menu-animation ms-n3 dropdown-md p-3 border-radius-xl mt-0 mt-lg-3" aria-labelledby="dropdownMenuPages">
                 <div class="d-none d-lg-block">
                   <a href="./pages/schedule/program-full.html" class="dropdown-item border-radius-md">
-                    <span>Program Preview</span>
+                    <span>Program at a Glance</span>
                   </a>
                   <!-- <a href="#" class="dropdown-item border-radius-md">
                     <span>Posters</span>
@@ -193,7 +193,7 @@
                 </div>
                 <div class="d-lg-none">
                   <a href="./pages/schedule/program-full.html" class="dropdown-item border-radius-md">
-                    <span>Program Preview</span>
+                    <span>Program at a Glance</span>
                   </a>
                   <!-- <a href="#" class="dropdown-item border-radius-md">
                     <span>Posters</span>
@@ -508,12 +508,13 @@
                     <h5 class="mt-2 text-uppercase text-primary">News</h5>
                     <hr class="horizontal mt-0 mb-2 bg-gradient-dark" size="5">
                     <div>
+                      <p class="text-normal mt-3"><a href="./pages/schedule/program-full.html">Program at a Glance</a></p>
                       <p class="text-normal mt-3"><a href="#sponsorsgold">New Sponsor: Hewlett Packard Enterprise</a></p>
                       <p class="text-normal mt-3"><a href="./pages/speakers/albacerveralierta.html">New Keynote Speaker: Alba Cervera-Lierta</a></p>
                       <p class="text-normal mt-3"><a href="#sponsorsgold">New Sponsor: AMD and SUPERMICRO</a></p>
                       <p class="text-normal mt-3"><a href="./pages/speakers/pablomininni.html">New Invited talk: Pablo Mininni</a></p>
                       <p class="text-normal mt-3"><a href="./pages/speakers/luigicarro.html">New Invited talk: Luigi Carro</a></p>
-                      <p class="text-normal mt-3"><a href="./pages/speakers/michelataufer.html">New Keynote Speaker: Michela Taufer</a></p>
+                      <!-- <p class="text-normal mt-3"><a href="./pages/speakers/michelataufer.html">New Keynote Speaker: Michela Taufer</a></p> -->
                       <!-- <p class="text-normal mt-3"><a href="./pages/speakers/danielkatz.html">New Keynote Speaker: Daniel S. Katz</a></p> -->
                     </div>
                   </div>
@@ -663,7 +664,6 @@
 
       <!-- -------   START Sponsors  -------- -->
       <section class="py-7 bg-gradient-faded-dange border-radius-xl" id="pre-footer-sponsors">
-        <div class="container">
           <div class="row">
             <div class="col-8 mx-auto text-center">
               <h2 class="font-weight-bolder text-indigo-dark"> Sponsors</h2>
@@ -696,16 +696,19 @@
               </div>
             </div>
             <div class="row mt-2 justify-content-center ">
-              <div class="col-lg-4 col-md-4 col-6 mb-4 d-flex flex-column justify-content-center logo logo-g">
+              <div class="col-lg-3 col-md-4 col-6 mb-4 d-flex flex-column justify-content-center logo logo-g">
                 <img class="w-100  opacity-9" src="./assets/img/logos/medium-logos/logo-amd-supermicro2.png" alt="logo-amd-supermicro">
               </div>
-              <div class="col-lg-4 col-md-4 col-6 mb-4 d-flex flex-column justify-content-center logo logo-g">
+              <div class="col-lg-3 col-md-4 col-6 mb-4 d-flex flex-column justify-content-center logo logo-g">
                 <!-- <a href="https://www.nvidia.com/"> -->
                   <img class="w-100 opacity-9" src="./assets/img/logos/medium-logos/NVLogo_2D_H.png" alt="logo">
                 <!-- </a> -->
               </div>
-              <div class="col-lg-4 col-md-4 col-6 mb-4 d-flex flex-column justify-content-center logo logo-g">
+              <div class="col-lg-3 col-md-4 col-6 mb-4 d-flex flex-column justify-content-center logo logo-g">
                 <img class="mx-auto w-85 opacity-9" src="./assets/img/logos/medium-logos/hpe_pri_grn_pos_rgb.png" alt="logo">
+              </div>
+              <div class="col-lg-3 col-md-4 col-6 mb-4 d-flex flex-column justify-content-center logo logo-p">
+                <img class="w-100  opacity-9" src="./assets/img/logos/medium-logos/DellTechnologies_Intel2020.png" alt="logo-DellTechnologies-Intel">
               </div>
             </div>
           </div>
@@ -728,7 +731,6 @@
               </div>
             </div>
           </div> -->
-        </div>
       </section>
       <!-- -------   END Sponsors   -------- -->
 
@@ -758,7 +760,7 @@
                 <img class="w-100 opacity-9" src="./assets/img/logos/medium-logos/risc2.jpeg" alt="logo">
               </div>
               <div class="col-lg-4 col-md-4 col-6 mb-4 d-flex flex-column justify-content-center logo logo-s">
-                <img class="mx-auto w-85 opacity-9" src="./assets/img/logos/medium-logos/RESINFRA_eu-lac-01.png" alt="logo">
+                <img class="mx-auto w-75 opacity-9" src="./assets/img/logos/medium-logos/RESINFRA_eu-lac-01.png" alt="logo">
               </div>
             </div>
             <div class="row mt-2 justify-content-center">
@@ -791,9 +793,9 @@
         <div class="col-lg-2 col-md-4 col-6 mb-4 d-flex flex-column justify-content-center">
           <img class="mx-auto w-85 opacity-9" src="./assets/img/logos/medium-logos/hpe_pri_grn_pos_rgb.png" alt="logo">
         </div>
-        <!-- <div class="col-lg-2 col-md-4 col-6 mb-4">
-          <img class="w-100 opacity-9" src="./assets/img/logos/gray-logos/logo-pinterest.svg" alt="logo">
-        </div> -->
+        <div class="col-lg-2 col-md-4 col-6 mb-4 d-flex flex-column justify-content-center">
+          <img class="w-100 opacity-9" src="./assets/img/logos/medium-logos/DellTechnologies_Intel2020.png" alt="logo">
+        </div>
         <!-- <div class="col-lg-2 col-md-4 col-6 mb-4">
           <img class="w-100 opacity-9" src="./assets/img/logos/gray-logos/logo-spotify.svg" alt="logo">
         </div> -->
