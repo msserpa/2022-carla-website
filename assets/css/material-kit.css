@@ -25795,6 +25795,23 @@ p {
   text-shadow: 0.15em 0.15em 0.4em rgba(240, 242, 245, 0.4) !important;
 }
 
+/*! nouislider - 14.6.3 - 11/19/2020 */.accordion .accordion-button {
+  margin: 0 auto;
+  font-size: inherit!important;
+}
+.accordion div button[aria-expanded=true] .collapse-close {
+  display: none;
+}
+.accordion div button[aria-expanded=true] .collapse-open {
+  display: block;
+}
+.accordion div button[aria-expanded=false] .collapse-open {
+  display: none;
+}
+.accordion div button[aria-expanded=false] .collapse-close {
+  display: block;
+}
+
 /* manual insert */
 
 .flatpickr-calendar {
