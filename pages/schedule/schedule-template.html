@@ -51,12 +51,16 @@
     <link id="pagestyle" href="../../assets/css/material-kit.css?v=3.0.0" rel="stylesheet" />
     <link id="pagestyle" href="../../assets/css/material-kit-pro.min.css?v=3.0.1" rel="stylesheet">
 
+    <link id="pagestyle" href="../../assets/css/schedule2.css" rel="stylesheet">
+
+
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
     <script>
     $(function(){
       $( "#navigator" ).load( "../../pages/load/nav.html" );
     });
     </script>
+
   </head>
 
 
@@ -99,208 +103,138 @@
 
               <div class="card-header p-0 position-relative z-index-2">
                 <div class="bg-info shadow-info border-radius-lg ps-4">
-                <h3 class="text-white mb-0">Program Main Tracks</h3>
+                <h3 class="text-white mb-0">Schedule by Day</h3>
                 </div>
               </div>
 
-              <!-- START Track #1 -->
-              <div>
-                <h5 class="text-indigo pt-3"><strong>Track #1: High Performance Computing (HPC)</strong></h5>
-                <p>Thursday, September 29th, 2022 / 09:00-10:30 </p>
-                <div class="row">
-                  <div class="col-10">
-                    <ul>
-                      <li>
-                        <div class="row">
-                          <h6 class="mb-0">A Comparative Evaluation of Parallel Programming Python Tools for Particle-in-cell on Symmetric Multiprocessors</h6>
-                          <p class="text-xs mb-0">
-                            <em>Oscar Blandino H, Esteban Meneses</em>
-                          </p>
-                        </div>
-                      </li>
-                      <li>
-                        <div class="row">
-                          <h6 class="mb-0">Accelerating GNN Training on CPU+Multi-FPGA Heterogeneous Platform</h6>
-                          <p class="text-xs mb-0">
-                            <em>Yi-Chien Lin, Viktor Prasanna, Bingyi Zhang</em>
-                          </p>
-                        </div>
-                      </li>
-                      <li>
-                        <div class="row">
-                          <h6 class="mb-0">Implementing a GPU-Portable Field Line Tracing Application with OpenMP Offload</h6>
-                          <p class="text-xs mb-0">
-                            <em>Diego Jimenez, Javier Herrera-Mora,  Markus Rampp, Erwin Laure, Esteban Meneses</em>
-                          </p>
-                        </div>
-                      </li>
-                      <li>
-                        <div class="row">
-                          <h6 class="mb-0">Quantitative Characterization of Scientific Computing Clusters</h6>
-                          <p class="text-xs mb-0">
-                            <em>Aurelio Vivas, Harold Castro</em>
-                          </p>
-                        </div>
-                      </li>
-                    </ul>
-                  </div>
-                </div>
 
-                <hr style="background-color: #adb5bd;" size="3" class="horizontal mt-0">
-                <p>Thursday, September 29th, 2022 / 14:00-14:45 </p>
-                <div class="row">
-                  <div class="col-10">
-                    <ul>
-                      <li>
-                        <div class="row">
-                          <h6 class="mb-0">Towards parameter-based profiling for MARE2DEM performance modeling</h6>
-                          <p class="text-xs mb-0">
-                            <em>Bruno Alves, Luciano Gaspary, Lucas Mello Schnorr</em>
-                          </p>
-                        </div>
-                      </li>
-                      <li>
-                        <div class="row">
-                          <h6 class="mb-0">Time-Power-Energy Balance of BLAS kernels in modern FPGAs</h6>
-                          <p class="text-xs mb-0">
-                            <em>Federico Favaro, Ernesto Dufrechou, Juan P Oliver, Pablo Ezzatti</em>
-                          </p>
-                        </div>
-                      </li>
-                    </ul>
-                  </div>
+
+              <div class="scheduleContainer ">
+
+                <!-- TIMES -->
+                <div class="time start-900">9:00</div>
+                <div class="time start-930">9:30</div>
+                <div class="time start-1000">10:00</div>
+                <div class="time start-1030">10:30</div>
+                <div class="time start-1100">11:00</div>
+                <div class="time start-1130">11:30</div>
+                <div class="time start-1200">12:00</div>
+                <div class="time start-1230">12:30</div>
+                <div class="time start-1400">14:00</div>
+                <div class="time start-1430">14:30</div>
+                <div class="time start-1500">15:00</div>
+                <div class="time start-1530">15:30</div>
+                <div class="time start-1600">16:00</div>
+                <div class="time start-1630">16:30</div>
+                <div class="time start-1700">17:00</div>
+                <div class="time start-1730">17:30</div>
+                
+                <!-- EVENTS -->
+                <div class="move-on-hover event tutorial start-900 end-1000 length-1">
+                  <a class="link-black text-center" href="javascript:;">
+                      Tutorial 9 <br>
+                      NVIDIA DLI Fundamentals of Accelerated Computing with CUDA C/C++
+                  </a>  
                 </div>
+                <div class="move-on-hover event workshop start-900 end-1000 length-1">
+                  <a class="link-black text-center" href="http://www.carla22.org/pages/workshops/hpcdatasciencesmeetscientificcomputing.html">
+                    Workshop A <br>
+                    HPC and Data Sciences Meet Scientific Computing
+                  </a>
+                </div>
+                <div class="move-on-hover event workshop start-900 end-1000 length-1">
+                  <a class="link-black text-center" href="javascript:;">
+                    Workshop B <br>
+                    Advanced Computing Trends in Latin America
+                  </a>
+                </div>
+                <div class="move-on-hover event tutorial start-900 end-1000 length-1">
+                  <a class="link-black text-center" href="javascript:;">
+                    Tutorial 8 <br>
+                    OpenMP for beginners: Parallelism, and heterogeneity
+                  </a>
+                </div>
+               
+                <div class="text-center event coffee-lunch start-1030 end-1030 length-4">COFFEE</div>
+                
+                <div class="move-on-hover event tutorial start-1100 end-1200 length-1">
+                  <a class="link-black text-center" href="javascript:;">
+                    Tutorial 9 <br>
+                    NVIDIA DLI Fundamentals of Accelerated Computing with CUDA C/C++
+                  </a>
+                </div>
+                <div class="move-on-hover event workshop start-1100 end-1200 length-1">
+                  <a class="link-black text-center" href="http://www.carla22.org/pages/workshops/hpcdatasciencesmeetscientificcomputing.html">
+                    Workshop A <br>
+                    HPC and Data Sciences Meet Scientific Computing
+                  </a>
+                </div>
+                <div class="move-on-hover event workshop start-1100 end-1200 length-1">
+                  <a class="link-black text-center" href="javascript:;">
+                    Workshop B <br>
+                    Advanced Computing Trends in Latin America
+                  </a>
+                </div>
+                <div class="move-on-hover event tutorial start-1100 end-1200 length-1">
+                  <a class="link-black text-center" href="javascript:;">
+                    Tutorial 8 <br>
+                    OpenMP for beginners: Parallelism, and heterogeneity
+                  </a>
+                </div>
+                
+                <div class="text-center event coffee-lunch start-1230 end-1330 length-4">LUNCH</div>
+
+                <div class="move-on-hover event tutorial start-1400 end-1500 length-1">
+                  <a class="link-black text-center" href="javascript:;">
+                    Tutorial 9 <br>
+                    NVIDIA DLI Fundamentals of Accelerated Computing with CUDA C/C++
+                  </a>
+                </div>
+                <div class="move-on-hover event tutorial start-1400 end-1500 length-1">
+                  <a class="link-black text-center" href="javascript:;">
+                    Tutoria 6 <br>
+                    Reproducible distributed environments with NixOS Compose
+                  </a>
+                </div>
+                <div class="move-on-hover event tutorial start-1400 end-1500 length-1">
+                  <a class="link-black text-center" href="javascript:;">
+                    Tutoria 5 <br>
+                    An Introduction to Good Practices for Debugging and Profiling Parallel Computing Code
+                  </a>
+                </div>
+                <div class="move-on-hover event tutorial start-1400 end-1500 length-1">
+                  <a class="link-black text-center" href="javascript:;">
+                    Tutorial 8 <br>
+                    OpenMP for beginners: Parallelism, and heterogeneity
+                  </a>
+                </div>
+               
+                <div class="text-center event coffee-lunch start-1530 end-1530 length-4">COFFEE</div>
+                
+                <div class="move-on-hover event tutorial start-1600 end-1700 length-1">
+                  <a class="link-black text-center" href="javascript:;">
+                    Tutorial 9 <br>
+                    NVIDIA DLI Fundamentals of Accelerated Computing with CUDA C/C++
+                  </a>
+                </div>
+                <div class="move-on-hover event tutorial start-1600 end-1700 length-1">
+                  <a class="link-black text-center" href="javascript:;">
+                    Tutoria 6 <br>
+                    Reproducible distributed environments with NixOS Compose
+                  </a>
+                </div>
+                
+                <div class="event start-1600 end-1700 length-1"></div>
+
+                <div class="move-on-hover event tutorial start-1600 end-1700 length-1">
+                  <a class="link-black text-center" href="javascript:;">
+                    Tutorial 8 <br>
+                    OpenMP for beginners: Parallelism, and heterogeneity
+                  </a>
+                </div>
+                
+                
               </div>
-              <!-- END Track #1 -->
-
-              <!-- START Track #2 -->
-              <div>
-                <h5 class="text-indigo pt-4"><strong>Track #2: Artificial Intelligence at HPC Scale</strong></h5>
-                <p>Friday, September 29th, 2022 / 09:00-10:30 </p>
-                <div class="row">
-                  <div class="col-10">
-                    <ul>
-                      <li>
-                        <div class="row">
-                          <h6 class="mb-0">Towards Fire Identification Model in Satellite Images Using HPC Embedded Systems and AI</h6>
-                          <p class="text-xs mb-0">
-                            <em>John D. Perez A., Carlos J. Barrios Hernández, and Julián Rodriguez</em>
-                          </p>
-                        </div>
-                      </li>
-                      <li>
-                        <div class="row">
-                          <h6 class="mb-0">A Machine Learning-based Missing Data Imputation with FHIR Interoperability Approach in Sepsis Prediction</h6>
-                          <p class="text-xs mb-0">
-                            <em>Cristian Fernando Toro Beltran, Erick Daniel Villarreal Ibañez, Vivian Milen Orejuela, and John Anderson Garcia Hena</em>
-                          </p>
-                        </div>
-                      </li>
-                      <li>
-                        <div class="row">
-                          <h6 class="mb-0">Understanding the Energy Consumption of HPC Scale Artificial Intelligence</h6>
-                          <p class="text-xs mb-0">
-                            <em>Thi Hoang Thi Pham, and Danilo Carastan-Santos</em>
-                          </p>
-                        </div>
-                      </li>
-                      <li>
-                        <div class="row">
-                          <h6 class="mb-0">Using Big Data and Serverless Architecture to Follow the Emotional Response to the COVID-19 Pandemic in Mexico</h6>
-                          <p class="text-xs mb-0">
-                            <em>Edgar Léon-Sandoval, Mahdi Zareei, Liliana Ibeth Barbosa-Santillán, and Luis Eduardo Falcón Morales</em>
-                          </p>
-                        </div>
-                      </li>
-                    </ul>
-                    
-                  </div>
-                </div>
-
-                <hr style="background-color: #adb5bd;" size="3" class="horizontal mt-0">
-                <p>Friday, September 29th, 2022 / 15:30-15:52 </p>
-
-                <div class="row">
-                  <div class="col-10">
-                    <ul>
-                      <li>
-                        <div class="row">
-                          <h6 class="mb-0">Physics-Aware Neural Networks for Boundary Layer Linear Problems</h6>
-                          <p class="text-xs mb-0">
-                            <em>Antônio Tadeu Azevedo Gomes, Larissa Miguez da Silva, and Frédéric Valentin</em>
-                          </p>
-                        </div>
-                      </li>
-                    </ul>
-                    
-                  </div>
-                </div>
-
-              </div>
-              <!-- END Track #2 -->
-
-              <!-- START Track #3 -->
-              <div>
-                <h5 class="text-indigo pt-4"><strong>Track #3: High Performance Computing Applications</strong></h5>
-                <p>Wednesday, September 28th, 2022 / 09:00-10:30 </p>
-                <div class="row">
-                  <div class="col-10">
-                    <ul>
-                      <li>
-                        <div class="row">
-                          <h6 class="mb-0">Multi-GPU 3-D Reverse Time Migration with Minimum I/O</h6>
-                          <p class="text-xs mb-0">
-                            <em>Carlos Barbosa, Alvaro Coutinho</em>
-                          </p>
-                        </div>
-                      </li>
-                      <li>
-                        <div class="row">
-                          <h6 class="mb-0">ParslRNA-Seq: an efficient and scalable RNAseq analysis workflow for studies of differentiated gene expression</h6>
-                          <p class="text-xs mb-0">
-                            <em>Kary Ocaña, Lucas Cruz, Micaella Coelho, Rafael Terra, Marcelo Galheigo, Andre Carneiro, Luiz Gadelha, Diego Carvalho, Francieli Boito, Carla Osthoff, Philippe Navaux</em>
-                          </p>
-                        </div>
-                      </li>
-                      <li>
-                        <div class="row">
-                          <h6 class="mb-0">Refactoring an electric-market simulation software for massively parallel computations</h6>
-                          <p class="text-xs mb-0">
-                            <em>Franco Seveso, Raúl Marichal, Ernesto Dufrechou, Pablo Ezzatt</em>
-                          </p>
-                        </div>
-                      </li>
-                      <li>
-                        <div class="row">
-                          <h6 class="mb-0">Nearly Quantum Computing by Simulation</h6>
-                          <p class="text-xs mb-0">
-                            <em>Gilberto Díaz, Carlos J. Barrios H., Luiz Angelo Steffenel, Jean Couturier</em>
-                          </p>
-                        </div>
-                      </li>
-                    </ul>
-                  </div>
-                </div>
-
-                <hr style="background-color: #adb5bd;" size="3" class="horizontal mt-0">
-                <p>Friday, September 29th, 2022 / 17:06-17:30 </p>
-                <div class="row">
-                  <div class="col-10">
-                    <ul>
-                      <li>
-                        <div class="row">
-                          <h6 class="mb-0">Functionality testing in the automation of scientific application workflows in an HPC environment</h6>
-                          <p class="text-xs mb-0">
-                            <em>Felipe Orozco, Jesus Manuel Aleman Gonzalez, Lizette Robles</em>
-                          </p>
-                        </div>
-                      </li>
-                    </ul>
-                  </div>
-                </div>
-
-              </div>
-              <!-- END Track #3 -->
 
             </div>
           </div>
