@@ -20033,6 +20033,11 @@ fieldset:disabled .btn {
   height: 74px !important;
 }
 
+.avatar-xxxxxxl {
+  width: 150px !important;
+  height: 150px !important;
+}
+
 .avatar-2xl {
   width: 180px !important;
   height: 180px !important;
